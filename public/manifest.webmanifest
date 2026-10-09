@@ -1,0 +1,16 @@
+{
+  "name": "AUTO CDO Car Trading",
+  "short_name": "AUTO CDO",
+  "description": "Reserve cars, track payments and request service from CDO Car Trading.",
+  "start_url": "/login",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#15181A",
+  "theme_color": "#15181A",
+  "icons": [
+    { "src": "/icons/pwa/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/pwa/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icons/pwa/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

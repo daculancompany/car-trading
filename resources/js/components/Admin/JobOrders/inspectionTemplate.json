@@ -1,0 +1,154 @@
+{
+  "sections": [
+    {
+      "key": "lights",
+      "title": "Lights",
+      "color": "blue",
+      "items": [
+        "High / low beam headlights",
+        "Parking lights",
+        "Left front signal light",
+        "Right front signal light",
+        "Left rear signal light",
+        "Right rear signal light",
+        "Left brake light",
+        "Centre brake light",
+        "Right brake light",
+        "Reverse lights",
+        "Licence plate light",
+        "Hazard lights"
+      ]
+    },
+    {
+      "key": "horn_wipers",
+      "title": "Horn & Wipers",
+      "color": "blue",
+      "items": [
+        "Horn",
+        "Left wiper arm & blade",
+        "Right wiper arm & blade",
+        "Rear wiper arm & blade",
+        "Windshield washer operation"
+      ]
+    },
+    {
+      "key": "glass",
+      "title": "Windshield & Glass",
+      "color": "blue",
+      "items": [
+        "Windshield cracks or stone chips",
+        "Side windows",
+        "Rear window",
+        "Side mirrors"
+      ]
+    },
+    {
+      "key": "under_hood",
+      "title": "Under Hood",
+      "color": "orange",
+      "items": [
+        "Engine oil level & condition",
+        "Coolant level & condition",
+        "Brake fluid level & condition",
+        "Power steering fluid",
+        "Transmission fluid",
+        "Washer fluid",
+        "Air filter",
+        "Belts & hoses",
+        "Battery & terminals"
+      ]
+    },
+    {
+      "key": "suspension",
+      "title": "Suspension & Steering",
+      "color": "purple",
+      "items": [
+        "CV joints & boots",
+        "Front suspension",
+        "Rear suspension",
+        "Shock absorbers",
+        "Steering system & linkage"
+      ]
+    },
+    {
+      "key": "under_vehicle",
+      "title": "Under Vehicle",
+      "color": "gray",
+      "items": [
+        "Exhaust system",
+        "Fluid or fuel leaks",
+        "Brake lines & hoses",
+        "Chassis & underbody"
+      ]
+    },
+    {
+      "key": "interior",
+      "title": "Interior & Electrical",
+      "color": "teal",
+      "items": [
+        "Air-con cooling",
+        "Dashboard warning lights",
+        "Seat belts",
+        "Power windows & locks",
+        "Audio & accessories"
+      ]
+    },
+    {
+      "key": "performance",
+      "title": "Performance & Road Test",
+      "color": "green",
+      "items": [
+        "Engine idle & noise",
+        "Transmission shifting",
+        "Brakes feel & stopping",
+        "Restraint system / airbag light",
+        "Road test"
+      ]
+    }
+  ],
+  "pre_checks": [
+    { "key": "customer_verified", "label": "Customer name & contact verified" },
+    { "key": "service_history", "label": "Service history checked" },
+    { "key": "recall_check", "label": "Recall check" }
+  ],
+  "wheels": [
+    { "key": "lf", "label": "Left Front" },
+    { "key": "rf", "label": "Right Front" },
+    { "key": "lr", "label": "Left Rear" },
+    { "key": "rr", "label": "Right Rear" }
+  ],
+  "damage_views": [
+    { "key": "left", "label": "Left side" },
+    { "key": "top", "label": "Top" },
+    { "key": "right", "label": "Right side" },
+    { "key": "front", "label": "Front" },
+    { "key": "rear", "label": "Rear" }
+  ],
+  "damage_types": [
+    { "key": "scratch", "label": "Scratch" },
+    { "key": "dent", "label": "Dent" },
+    { "key": "crack", "label": "Crack" },
+    { "key": "chip", "label": "Chip" },
+    { "key": "rust", "label": "Rust" },
+    { "key": "paint", "label": "Paint damage" },
+    { "key": "missing", "label": "Missing part" },
+    { "key": "other", "label": "Other" }
+  ],
+  "recommended_services": [
+    { "key": "oil_change", "label": "Engine oil & filter change" },
+    { "key": "tire_rotation", "label": "Tire rotation" },
+    { "key": "alignment", "label": "Wheel alignment" },
+    { "key": "air_filter", "label": "Replace air filter" },
+    { "key": "cabin_filter", "label": "Replace cabin filter" },
+    { "key": "spark_plugs", "label": "Replace spark plugs" },
+    { "key": "coolant_flush", "label": "Flush & replace engine coolant" },
+    { "key": "brake_fluid", "label": "Change brake fluid" },
+    { "key": "transmission_fluid", "label": "Change transmission fluid" },
+    { "key": "timing_belt", "label": "Replace timing belt" },
+    { "key": "drive_belts", "label": "Replace accessory drive belts" },
+    { "key": "battery", "label": "Battery replacement" },
+    { "key": "brake_pads", "label": "Brake pad replacement" },
+    { "key": "aircon_cleaning", "label": "Air-con cleaning / recharge" }
+  ],
+  "thresholds": { "good": 7, "attention": 3 }
+}
